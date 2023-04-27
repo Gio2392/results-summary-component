@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+  <body>
+    <main class="information">
+      <div class="rating">
+        <p class="rating__title">Your Result</p>
+        <div class="rating__score">
+          <h2>76</h2>
+          <p>of 100</p>
+        </div>
+        <h1 class="rating__result">Great</h1>
+        <p class="rating__detail">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary">
+        <p class="summary__title">Summary</p>
+        <div class="summary__main"></div>
+        <button class="btn">Continue</button>
+      </div>
+    </main>
+
+    <template id="card">
+      <div class="summary__item">
+        <div class="summary__info">
+          <div class="summary__img">
+            <img />
+          </div>
+          <p class="summary__category"></p>
+        </div>
+        <p class="summary__score"><span></span>/ 100</p>
+      </div>
+    </template>
+
+    <!--  <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
